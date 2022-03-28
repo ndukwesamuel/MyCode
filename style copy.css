@@ -1,0 +1,59 @@
+body {
+  background-color: grey;
+}
+
+ul li {
+  background-color: orange;
+  font-size: 3rem;
+}
+
+ul > li {
+  color: purple;
+}
+
+ul > div li {
+  color: red;
+}
+
+ul > div > div > li {
+  color: blue;
+  font-size: 2rem;
+}
+.sec_test {
+  position: relative;
+}
+
+.sec_test > div ol :nth-child(2) {
+  /* background-clip: ; */
+  background-color: aquamarine;
+  /* margin-bottom: 1rem; */
+  /* position: relative; */
+  /* margin-top: -5rem; */
+  position: absolute;
+  top: 0rem;
+  left: 30rem;
+  font-size: 2rem;
+  width: 10rem;
+  z-index: 10;
+}
+
+.form__ {
+  background-color: burlywood;
+}
+
+.form__ input {
+  width: 18rem;
+  height: 2rem;
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  padding-left: 3rem;
+}
+
+.form__ img {
+  width: 2rem;
+  position: relative;
+  left: 3rem;
+  top: 0.74rem;
+  font-size: 2rem;
+}
