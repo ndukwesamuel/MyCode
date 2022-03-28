@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lexend+Zetta:wght@100;200;800&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,100;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Hachi+Maru+Pop&family=Lexend+Zetta:wght@100;200;800&family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,100;1,700&display=swap");
+
+h1 {
+  background-color: grey;
+  /* font-size: 10rem; */
+  font-size: 10px;
+  width: 50%;
+  /* color: #ff93aa; */
+  color: rgb(20, 10, 16);
+}
+
+.sec_one {
+  background-color: #ff93aa;
+  width: 70%;
+}
+
+.p_2 {
+  color: red;
+  font-size: 2rem;
+  padding-bottom: 10rem;
+  /* font-family: "Caveat Brush", cursive; */
+  /* font-family: "Poppins", sans-serif; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: "Hachi Maru Pop", cursive, sans-serif;
+  font-size: 3em;
+}
+
+/* p {
+    margin-top: -10rem;
+    color: white;
+    z-index: 10;
+    margin-left: 10rem;
+    } */
+
+.sec_div_3 {
+  /* margin-left: 13rem; */
+  /* padding-left: 5rem; */
+  /* margin: 5rem; */
+  /* margin: 2rem 5rem; */
+  /* margin: 10px 20px 5rem 0px ; */
+
+  /* margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 5rem;
+
+  margin-left: 0px; */
+  border-style: dotted;
+  border-width: 1rem;
+  border-color: green;
+
+  border: solid 3px goldenrod;
+  border-top: dotted 4px blue;
+  /* border-radius: 5rem; */
+  height: 10rem;
+  border-top-left-radius: 5rem;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 5rem;
+}
+
+.img_s {
+  /* width: 50%; */
+  display: block;
+  margin: auto;
+  width: 10rem;
+  height: 15rem;
+  border-radius: 50%;
+}
+
+.inpu {
+  /* border-width: 30rem; */
+  /* outline: none; */
+  /* outline-offset: 17px; */
+  width: 20rem;
+  height: 2rem;
+  font-size: 1.3rem;
+  /* outline: 3px dotted purple; */
+  outline: none;
+  border-top: none;
+  margin-top: 2rem;
+}
+
+/* font-family: 'Caveat Brush', cursive;
+font-family: 'Lexend Zetta', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+.test {
+  font-size: 10px;
+}
+
+.test p {
+  font-size: 21em;
+  /* font-style: normal; */
+  font-style: italic;
+  /* font-style: oblique; */
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+/* a:hover {
+  background-color: purple;
+  cursor: pointer;
+} */
+
+.lin :first-child:hover {
+  background-color: teal;
+  text-decoration: overline;
+}
+
+.lin :first-child:active {
+  background-color: red;
+  color: purple;
+}
+
+/* a:visited {
+  font-size: 21rem;
+} */
+
+li {
+  /* list-style-type: upper-roman; */
+  list-style-image: url(./images/clipboard-blank.svg);
+}
